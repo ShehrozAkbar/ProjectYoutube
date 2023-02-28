@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+
+.center-search{
+    display: flex;
+    gap: 30px;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 500px;
+    border: 0.5px solid gainsboro;
+}
+.search button{
+    width: 80px;
+    border: none;
+}
+.microphone {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.microphone img{
+    width: 20px;
+}
+
+.things{
+    display: flex;
+    gap: 15px;
+}
+.things img{
+    width: 25px;
+    height: 25px;
+}
+
+/* now the start of lower header */
+
+.lower-header{
+    display: flex;
+    gap: 30px;
+    padding: 10px 5px;
+    border-top: 1px solid #E2E2E2;
+}
+.tag{
+    border: 0.8px solid grey;
+    border-radius: 50px;
+    padding: 4px 10px;
+    background-color: #EEEEEE;
+}
+
+/* now is for the menu bar on the left side of the screen */
+
+.menus{
+    display: flex;
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+
+.bars{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 10px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign img{
+    width: 25px;
+}
+.sign p{
+    font-size: 10px;
+}
+/* setting of the card and the container */
+
+.the-container{
+    padding: 20px;
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.card-kontent img{
+    width: 20px;
+    height: 20px;
+}
+.card-kontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -100px;
+}
+.card-info{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+}
+.card-text>p{
+    font-weight: 600;
+    font-size: 14px;
+} 
